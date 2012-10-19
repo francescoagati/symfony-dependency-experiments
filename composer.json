@@ -1,0 +1,15 @@
+{
+    "require": {
+        "monolog/monolog": "1.2.*",
+        "symfony/dependency-injection": "dev-master",
+        "symfony/yaml": "dev-master",
+        "symfony/config": "dev-master",
+        "resty/resty": "dev-master",
+        "twig/twig": "dev-faster-exceptions"
+    },
+    "autoload":{
+        "psr-0":{
+            "":"lib/"
+        }
+    }
+}
